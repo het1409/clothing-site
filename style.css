@@ -1,0 +1,300 @@
+/* Add background image to the body */
+body {
+    background-image: url(bg-image.jpg);
+    background-size: cover;
+  }
+  
+ /* Global styles */
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+  }
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* change from Open-Sans */
+    font-weight: bold; /* make it bold */
+    text-transform: uppercase; /* make it uppercase */
+  }
+  section#about img {
+    width: 200px; /* reduced width to 200px */
+    height: auto;
+  }
+  section#about img {
+    max-width: 200px; /* max width to 200px */
+  }
+  section#about img {
+    box-shadow: none; /* remove shadow from image */
+  }
+  section#about img {
+    box-shadow: 0 0 0 transparent; /* remove shadow from image */
+  }
+  .brand-logo {
+    width: 75px; /* Reduce the width of the image */
+    height: auto; /* Keep the aspect ratio of the image */
+  }
+
+  .container {
+    display: flex;
+    justify-content: left; /* center the elements horizontally */
+    align-items: left; /* center the elements vertically */
+  }
+  .store-section, .contact-section {
+    align-items: left;
+    flex: 1;
+}
+
+  /* Header styles */
+  .product-button {
+    background-color: #ffffff; /* change the background color */
+    color: #fff; /* change the text color */
+    border-radius: 30px; /* round the edges */
+    padding: 10px 20px; /* adjust the padding */
+    font-size: 18px; /* change the font size */
+    font-weight: bold; /* make the text bold */
+    text-transform: uppercase; /* make the text uppercase */
+    box-shadow: 2px 2px 2px #000000; /* add a box-shadow */
+    transition: all 0.3s ease; /* add a transition */
+  }
+  
+  .product-button:hover {
+ /* change the background color on hover */
+    color: #fff; /* change the text color on hover */
+    cursor: pointer; /* change the cursor on hover */
+  }
+  .product-button {
+    background-color: #000000; /* change the background color to match the website's primary color */
+    color: #fff; /* change the text color to match the website's text color */
+    font-family: 'Montserrat', sans-serif; /* change the font-family to match the website's font */
+    font-size: 18px; /* change the font size to match the website's font size */
+    padding: 10px 20px; /* adjust the padding to match the website's padding */
+    border-radius: 0; /* remove the border-radius to match the website's button style */
+    text-transform: uppercase; /* make the text uppercase to match the website's button style */
+  }
+  .product-button {
+    background-color: #000000; /* changed from blue #66A2D8 to #000000 for black color */
+    color: #fff; /* change the text color to white */
+    font-size: 18px; /* maintain the font size */
+    padding: 10px 20px; /* maintain the padding */
+    border-radius: 0; /* maintain the border-radius */
+    text-transform: uppercase;
+    box-shadow: none; /* remove the box-shadow */ /* maintain the text-transform */
+  }
+  
+
+  
+  header{
+    background-color: #000000; /* same background color */
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: none;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 2px #000000;
+    letter-spacing: 2px;
+  }
+  header h1, header nav ul li a {
+    color: #FFFFFF; /* change color from #FFFFFF to black */
+  }
+  
+  header nav {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul li {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  header nav ul li a {
+    color: #FFFFFF;
+    padding: 10px;
+  }
+  
+
+  
+  /* Section styles */
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  section p {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  
+  section img {
+    max-width: 100%;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px #000000;
+  }
+  
+  /* Footer styles */
+  footer{
+    background-color: #000000; /* changed from #66A2D8 to #000000 for black color */
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    box-shadow: 2px 2px 2px #000000;
+  }
+  footer h1, footer nav ul li a {
+    color: #FFFFFF; /* change color from #FFFFFF to black */
+  }
+  .footer-img {
+    width: 75px; /* Reduce the width of the image */
+    height: auto;
+}
+
+
+
+
+  /* Link styles */
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .product-container {
+    width: 300px; /* reduced width of container */
+    margin: 20px;
+  }
+  
+  .product-image {
+    width: 100%; /* image will be scaled to the width of container */
+    height: auto;
+    box-shadow: none;
+  }
+ 
+  
+
+  
+  .product-info {
+    padding: 10px;
+  }
+  
+  .product-name {
+    font-size: 18px; /* smaller font size for product name */
+  }
+  
+  .product-price {
+    font-size: 14px; /* smaller font size for product price */
+  }
+  
+  .product-description {
+    font-size: 12px; /* smaller font size for product description */
+  }
+  
+  .product-button {
+    padding: 5px 10px; /* smaller padding for button */
+    font-size: 12px; /* smaller font size for button */
+  }
+
+  .collection-title {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.collection {
+    background-color: #ffffff;
+    color: #333333;
+}
+.product-container {
+    position: relative; /* set the container to be relative */
+}
+
+.product-image {
+    width: 100%; /* make the image take up the full width of the container */
+}
+
+.sale-text {
+    position: absolute; /* set the text to be absolute */
+    top: 10px; /* position the text 10px from the top of the container */
+    left: 10px; /* position the text 10px from the left of the container */
+    color: #fff; /* set the text color to white */
+    background-color: #ffe600; /* set the background color to red */
+    padding: 5px 10px; /* add some padding to the text */
+    font-size: 14px; /* set the font size */
+    font-weight: bold; /* set the font weight to bold */
+    z-index: 1; /* set the z-index to be higher than the image */
+}
+.spring-collection, .summer-collection, .fall-collection, .winter-collection{
+    flex: 0;
+    text-align: center; /* set the flex property to 1 to make the sections take up equal space */
+  }
+
+  .clothes {
+    display: flex; /* change the display property to flex */
+  }
+  #collections {
+    padding: 20px;
+    background-color: #f2f2f2;
+    
+}
+
+/* Style the collection headings */
+#collections h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style the collection list items */
+#collections li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* Style the links within the collection list items */
+#collections li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Add a hover effect to the links */
+#collections li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the individual collection sections */
+.collection {
+    margin-top: 50px;
+}
+ul {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
