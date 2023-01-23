@@ -396,53 +396,69 @@ ul {
 .hide-spinner:before{
   display: none;
 }
-#login {
-  width: 50%; /* adjust as needed */
-  margin: 0 auto;
-  text-align: center;
 
-}
-
-/* Style all input elements */
-input {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  border: 2px solid rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-
-}
 
 /* Style the username input specifically */
-#username {
-  width: 50%; /* adjust as needed */
+#register {
+    width: 50%; /* adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+  
+  /* Style all input elements */
+  input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  /* Style the username input specifically */
+  #email {
+    width: 50%; /* adjust as needed */
+  }
+  
+  /* Style the password input specifically */
+  #password {
+    width: 50%; /* adjust as needed */
+  }
+  /* Style all button elements */
+  button {
+    background-color: #000000; /* Green background */
+    color: white; /* White text */
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Fill the full width of its parent */
+  }
+  
+  /* Style the login button specifically */
+  #reg-button {
+    background-color: #000000;
+    padding: 10px 12px; /* Decrease the padding */
+    font-size: 14px; /* Decrease the font size */
+    width: 15%; /* Decrease the width */ /* Green background */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
 }
-
-/* Style the password input specifically */
-#password {
-  width: 50%; /* adjust as needed */
+input {
+    display: inline-block;
+    width: calc(100% - 120px);
 }
-/* Style all button elements */
-button {
-  background-color: #000000; /* Green background */
-  color: white; /* White text */
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%; /* Fill the full width of its parent */
-}
-
-/* Style the login button specifically */
-#login-button {
-  background-color: #000000;
-  padding: 10px 12px; /* Decrease the padding */
-  font-size: 14px; /* Decrease the font size */
-  width: 15%; /* Decrease the width */ /* Green background */
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+.textfield{
+    font-weight: bold;
+    font-weight: 600;
 }
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+  <script src="func.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elysium Couture - Add to Cart</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="elysium-couture-logo(wb).png" alt="Brand Logo" class="brand-logo">
+    <nav>
+        <ul>
+            <li><center><a href="index.html">Home</a></li></center>
+
+        </ul>
+    </nav>
+</header>
+<footer>
+  <div class="checkout-container">
+      <a href="checkout.html">
+        <button id="checkout-button" class="checkout-button hide-spinner">Checkout</button>
+
+
+</a>
+  </div>
+</footer>
+<script src="spin.js"></script>
+<script>
+    var spinner = new Spinner().spin();
+    document.getElementById("checkout-button").addEventListener("click", function(){
+        spinner.spin(document.getElementById("checkout-button"));
+        // simulate loading process
+        setTimeout(function(){
+            spinner.stop();
+        }, 3000);
+    });
+</script>
+
+

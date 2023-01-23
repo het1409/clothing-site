@@ -1,0 +1,40 @@
+<section id="Checkout">
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="func.js"></script>
+    <h2>Checkout</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items">
+        <!-- Cart items will be added here dynamically -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total:</td>
+          <td id="cart-total"></td>
+        </tr>
+      </tfoot>
+    </table>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="address">Address:</label>
+      <input type="text" id="address" required>
+      <label for="city">City:</label>
+      <input type="text" id="city" required>
+      <label for="state">State:</label>
+      <input type="text" id="state" required>
+      <label for="zip">Zip Code:</label>
+      <input type="text" id="zip" required>
+      <button type="submit" id="place-order">Place Order</button>
+    </form>
+  </section>
+  

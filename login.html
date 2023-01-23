@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elysium Couture - Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="func.js"></script>
+</head>
+<body>
+  <header>
+    <img src="elysium-couture-logo(wb).png" alt="Brand Logo" class="brand-logo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="atc.html">Cart <span id="cart-count"></span></a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <form class="search-form">
+              <input class="search-input" type="text" placeholder="Search...">
+              <button class="search-button" type="submit">Search</button>
+            </form>
+        </ul>
+    </nav>
+  </header>
+  <section id="login">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <br>
+      <button type="submit" id="login-button">Login</button>
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </section>
+</body>
+</html>
